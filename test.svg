@@ -1,15 +1,15 @@
 <svg fill="none" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-
+  <style>
+    h1 { color: #ff79c6; }
+    p { color: #f8f8f2; }
+  </style>
     <foreignObject width="800" height="400">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <h1>這是 SVG 中的 HTML 標題</h1>
         <p>這段文字是使用 foreignObject 標籤嵌入的 HTML 內容。</p>
       </div>
     </foreignObject>
-  <style>
-    h1 { color: #ff79c6; }
-    p { color: #f8f8f2; }
-  </style>
+
 
   
     
