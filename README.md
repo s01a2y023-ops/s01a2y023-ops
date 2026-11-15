@@ -22,16 +22,3 @@
   <img src="./assets/signal.svg" alt="Currently a Year 3 CS student, open to projects" width="100%">
 </p>
 
-<details>
-  <summary>What you can click, and what to edit</summary>
-  <br>
-
-  | Tile | Opens |
-  | --- | --- |
-  | Profile | [github.com/s01a2y023-ops](https://github.com/s01a2y023-ops) |
-  | Repositories | [all repositories](https://github.com/s01a2y023-ops?tab=repositories) |
-  | Source | [1-GitProfile](https://github.com/s01a2y023-ops/1-GitProfile) |
-
-  The dark banner is `test.svg`. Light mode swaps in `assets/banner-light.svg`. Change the sentences in the SVG files, and point the three links in this file wherever you want the tiles to go.
-
-</details>
