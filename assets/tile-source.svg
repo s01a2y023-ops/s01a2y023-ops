@@ -9,7 +9,7 @@
   <text x="20" y="96" fill="#f8f8f2" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="18" font-weight="700">This repo</text>
   <text x="20" y="116" fill="#bd93f9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="13">profile source</text>
   <g>
-    <animateTransform attributeName="transform" type="translate" values="-10 0; -5 0; -10 0; " dur="1.3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="-10 0;-5 0;-10 0" dur="1.3s" repeatCount="indefinite"/>
     <path d="M236 62h22M250 54l8 8-8 8" fill="none" stroke="#bd93f9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>

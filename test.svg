@@ -1,6 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300">
   <title>Larry's Profile</title>
- 
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff79c6"/>
+      <stop offset="0.52" stop-color="#bd93f9"/>
+      <stop offset="1" stop-color="#8dbcc6"/>
+    </linearGradient>
+    <clipPath id="text-clip">
+      <rect x="20" y="50" width="220" height="200">
+        <animate attributeName="width" values="220;30;50;68;86;110;140;168;185;220;220;220;185;168;140;110;86;68;50;30;220" dur="7s" calcMode="discrete" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
 
   <rect width="920" height="300" rx="20" fill="#2f3036"/>
   <rect x="1" y="1" width="918" height="298" rx="19" fill="none" stroke="#767a99"/>
@@ -12,7 +23,7 @@
   <text x="30" y="75" fill="#ba8cab" font-family="'Cascadia Code', Consolas, monospace" font-size="30">Hi There! I'm</text>
   <text x="355" y="35" fill="#50fa7b" font-family="'Cascadia Code', Consolas, monospace" font-size="13">CityU HK Year3 CS Student</text>
 
-  <text x="30" y="123" fill="#bc2fa9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="40" font-weight="700" bold="true" clip-path="url(#text-clip)">Larry Chan</text>
+  <text x="30" y="123" fill="#bc2fa9" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="40" font-weight="700" clip-path="url(#text-clip)">Larry Chan</text>
   <rect x="32" y="134" width="230" height="4" rx="2" fill="url(#accent)"/>
   <text x="32" y="172" fill="#ff79c6" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16">Still Learning for Coding, trying to understand more tech stack</text>
 
@@ -56,24 +67,8 @@
     <text x="760" y="224" fill="#6272a4">data</text>
   </g>
 
-      <defs>
-          <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0" stop-color="#ff79c6"/> 
-              <stop offset="0.52" stop-color="#bd93f9"/>
-              <stop offset="1" stop-color="#8dbcc6"/>
-          </linearGradient>
-
-    
-        <clipPath id="text-clip">
-            <rect x="20" y="50" width="0" height="200">
-                              <!-- text animated-->
-                <animate attributeName="width" values="0; 30; 50; 68; 86; 110; 110; 110; 110; 110; 110; 110; 110; 110; 110; 140; 168; 185; 220; 220; 220; 220; 220; 220; 220; 220; 220; 220; 185; 168; 140; 110; 86; 68; 50; 30; 0;" dur="7s" calcMode="discrete" repeatCount="indefinite" />
-            </rect>
-        </clipPath>
-    </defs>
-      <g transform="translate(65, 60)">
-      
-        <animateTransform attributeName="transform" type="translate" additive="sum" values=" -40,0; -18,0; 2,0; 16,0; 32,0; 56,0; 56,0; 56,0; 56,0; 56,0; 56,0; 56,0; 56,0; 56,0; 56,0; 92,0; 120,0; 135,0; 168,0; 168,0; 168,0; 168,0; 168,0; 168,0; 168,0; 168,0; 168,0; 168,0; 135,0; 120,0; 92,0; 56,0; 32.0; 16,0; 2,0; -18,0; -40,0;" dur="7s" calcMode="discrete" repeatCount="indefinite" />
+  <g transform="translate(65, 60)">
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="-40,0;-18,0;2,0;16,0;32,0;56,0;92,0;120,0;135,0;168,0;168,0;135,0;120,0;92,0;56,0;32,0;16,0;2,0;-18,0;-40,0" dur="7s" calcMode="discrete" repeatCount="indefinite"/>
 
         <!-- three dots -->
         <circle cx="10" cy="60" r="1" fill="#8be9fd" rx="2">
