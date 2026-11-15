@@ -3,7 +3,6 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
     <img src="./test.svg" alt="Larry Chan, CityU HK Year 3 CS student" width="920">
   </picture>
-  <p>CityU HK Year 3 CS student. Frontend, backend, and APIs in JS/TS, HTML/CSS, and SQL.</p>
   <a href="https://github.com/s01a2y023-ops"><img src="./assets/tile-profile.svg" alt="Open the GitHub profile"></a>
   &nbsp;
   <a href="https://github.com/s01a2y023-ops?tab=repositories"><img src="./assets/tile-repos.svg" alt="Browse repositories"></a>
