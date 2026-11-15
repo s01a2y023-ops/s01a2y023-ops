@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="250" viewBox="0 0 460 250">
+  <title>Focus areas</title>
+  <rect width="460" height="250" rx="18" fill="#282a36"/>
+  <rect x="1" y="1" width="458" height="248" rx="17" fill="none" stroke="#44475a"/>
+  <circle cx="32" cy="36" r="5" fill="#50fa7b">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="46" y="41" fill="#50fa7b" font-family="'Cascadia Code', Consolas, monospace" font-size="13" letter-spacing="1.5">FOCUS</text>
+  <text x="28" y="86" fill="#f8f8f2" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="26" font-weight="700">Current work</text>
+
+  <g font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" fill="#f8f8f2">
+    <text x="28" y="128">JavaScript</text>
+    <text x="28" y="162">TypeScript</text>
+    <text x="28" y="196">HTML / CSS</text>
+    <text x="28" y="228">SQL</text>
+  </g>
+
+  <g fill="#ff79c6">
+    <rect x="168" y="118" width="8" height="8" rx="2">
+      <animate attributeName="height" values="8;20;10;16;8" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="118;106;116;110;118" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="182" y="114" width="8" height="12" rx="2">
+      <animate attributeName="height" values="12;7;18;9;12" dur="1.1s" begin="0.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="114;119;108;117;114" dur="1.1s" begin="0.15s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="196" y="110" width="8" height="16" rx="2">
+      <animate attributeName="height" values="16;9;18;8;16" dur="1.1s" begin="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="110;117;108;118;110" dur="1.1s" begin="0.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="210" y="116" width="8" height="10" rx="2">
+      <animate attributeName="height" values="10;18;8;14;10" dur="1.1s" begin="0.45s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="116;108;118;112;116" dur="1.1s" begin="0.45s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g fill="#8be9fd">
+    <rect x="168" y="152" width="8" height="8" rx="2">
+      <animate attributeName="height" values="8;16;9;18;8" dur="1.35s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="152;144;151;142;152" dur="1.35s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="182" y="148" width="8" height="12" rx="2">
+      <animate attributeName="height" values="12;8;18;10;12" dur="1.35s" begin="0.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="148;152;142;150;148" dur="1.35s" begin="0.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="196" y="146" width="8" height="14" rx="2">
+      <animate attributeName="height" values="14;18;8;15;14" dur="1.35s" begin="0.35s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="146;142;152;145;146" dur="1.35s" begin="0.35s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="210" y="150" width="8" height="10" rx="2">
+      <animate attributeName="height" values="10;7;16;18;10" dur="1.35s" begin="0.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="150;153;144;142;150" dur="1.35s" begin="0.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g fill="#bd93f9">
+    <rect x="168" y="186" width="8" height="8" rx="2">
+      <animate attributeName="height" values="9;18;8;14;9" dur="0.95s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="185;176;186;180;185" dur="0.95s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="182" y="182" width="8" height="12" rx="2">
+      <animate attributeName="height" values="14;8;18;11;14" dur="0.95s" begin="0.18s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="180;186;176;183;180" dur="0.95s" begin="0.18s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="196" y="180" width="8" height="14" rx="2">
+      <animate attributeName="height" values="16;11;8;18;16" dur="0.95s" begin="0.32s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="178;183;186;176;178" dur="0.95s" begin="0.32s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="210" y="184" width="8" height="10" rx="2">
+      <animate attributeName="height" values="8;15;18;9;8" dur="0.95s" begin="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="186;179;176;185;186" dur="0.95s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g fill="#50fa7b">
+    <rect x="168" y="218" width="8" height="8" rx="2">
+      <animate attributeName="height" values="10;18;8;13;10" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="216;208;218;213;216" dur="1.25s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="182" y="214" width="8" height="12" rx="2">
+      <animate attributeName="height" values="8;12;18;9;8" dur="1.25s" begin="0.22s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="218;214;208;217;218" dur="1.25s" begin="0.22s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="196" y="212" width="8" height="14" rx="2">
+      <animate attributeName="height" values="15;8;14;18;15" dur="1.25s" begin="0.38s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="211;218;212;208;211" dur="1.25s" begin="0.38s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="210" y="216" width="8" height="10" rx="2">
+      <animate attributeName="height" values="12;18;9;15;12" dur="1.25s" begin="0.12s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="214;208;217;211;214" dur="1.25s" begin="0.12s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="'Cascadia Code', Consolas, monospace" font-size="12">
+    <text x="248" y="128" fill="#ff79c6">daily</text>
+    <text x="248" y="162" fill="#8be9fd">typed</text>
+    <text x="248" y="196" fill="#bd93f9">layout</text>
+    <text x="248" y="228" fill="#50fa7b">queries</text>
+  </g>
+</svg>

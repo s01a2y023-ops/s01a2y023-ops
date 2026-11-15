@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="96" viewBox="0 0 920 96">
+  <title>Now</title>
+  <rect width="920" height="96" rx="18" fill="#282a36"/>
+  <rect x="1" y="1" width="918" height="94" rx="17" fill="none" stroke="#44475a"/>
+  <circle cx="32" cy="40" r="5" fill="#50fa7b">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="46" y="36" fill="#50fa7b" font-family="'Cascadia Code', Consolas, monospace" font-size="12">NOW</text>
+  <text x="46" y="58" fill="#f8f8f2" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16">Year 3 CS · open to projects</text>
+  <path id="wave" d="M310 50 Q370 18 430 50 T550 50 T670 50 T790 50 T880 50" fill="none" stroke="#8be9fd" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="7 9">
+    <animate attributeName="stroke-dashoffset" from="0" to="-160" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M310 62 Q370 86 430 62 T550 62 T670 62 T790 62 T880 62" fill="none" stroke="#bd93f9" stroke-width="2" stroke-linecap="round" opacity="0.7" stroke-dasharray="4 10">
+    <animate attributeName="stroke-dashoffset" from="0" to="140" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle r="4.5" fill="#50fa7b">
+    <animateMotion dur="5.5s" repeatCount="indefinite">
+      <mpath href="#wave"/>
+    </animateMotion>
+  </circle>
+</svg>
